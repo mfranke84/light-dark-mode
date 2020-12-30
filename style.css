@@ -48,14 +48,14 @@ section {
 
 h1 {
   font-size: 80px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   font-family:'Shadows Into Light'
 }
 
 h2 {
   font-size: 32px;
   font-weight: normal;
-  color: var(--on-background-alt)
+  color: var(--primary-color)
   
 }
 
@@ -104,23 +104,31 @@ a:focus {
   height: auto;
   background: var(--background);
   box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
 }
 
 .image-container a {
   text-decoration: none;
 }
 
+.image-container a {
+  border-bottom: none;
+}
+
 .image-container button {
-  margin-top: 10px;  
+  margin-top: 10px; 
+  width: 20px; 
 }
 
 img {
   height: 176px;
   width: 300px;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 img:hover{
-  transform: rotate(5deg);
+  transform: rotate(3deg);
 }
 
 /* About Section */
